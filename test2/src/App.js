@@ -24,9 +24,3 @@ class App extends Component {
 }
 
 export default App;
-
-//<Route exact path="/" render={() => ( localStorage.getItem('Login') === 'test@email.com' && localStorage.getItem('Password') === 'test' 
-              //? <Redirect to='/Dashboard' /> 
-              //: <Redirect to='/Login' />  )}/>
-            //<Route path='/Login' component={Login} />
-            //<Route path='/Dashboard' component={Dashboard} />
